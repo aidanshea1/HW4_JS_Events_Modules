@@ -1,0 +1,55 @@
+{
+	"about":[
+        {
+            "name":"Aidan Shea",
+            "title":"Computer Science Student at Boston College",
+            "photo":"https://cdn.glitch.global/cfdb2ab6-7af9-4bbb-a5c2-1f6198b49db5/profile_picture.JPG?v=1643838451097",
+            "email": "sheadx@bc.edu",
+            "address": "Mod 10A, Chestnut Hill, MA, 02467",
+            "biography": "Aidan Shea is a student at Boston College where he is working towards a B.S. in Computer Science and a minor in Philosophy. <br> He is especially interested in the fields of data science and data analytics. He hopes to get a job in one of these fields after <br> graduation. Aidan enjoys playing the violin in his free time."
+        }
+    ],
+	"news":[
+		{
+            "title": "Enrolled in a Web Application Development course at Boston College",
+            "date": "Jan, 2022"
+        },
+        {
+            "title": "Started senior year at Boston College",
+            "date": "Aug, 2021"
+        },
+        {
+            "title": "Started freshman year at Boston College",
+            "date": "Aug, 2018"
+        }
+    ],
+	"projects":[
+		{
+            "type": "school_project",
+            "title":"ASL Fingerspelling Detection and Translation using a Convolutional Neural Network - Uses Scikit-Learn, Keras, Tensor Flow, Numpy, Matplotlib",
+            "description": "This project's goal was to build a program to translate images of ASL fingerspelling into text using a CNN.",
+            "path": "asl_project.html",
+            "details": "This project consisted of: Preprocessing 164,500 images using horizontal shifting, vertical shifting, and zooming to a random extent to create more noise within our dataset to help prevent overfitting and then used a k-means approach to hand segmentation, testing numerous neural network architectures consisting of varying amounts of convolutional, pooling, and dense layers, experimenting with batch normalization, dropout, and L2 regularization techniques in order to help prevent overfitting and improve our generalization rate, and achieving a 97.43% accuracy rate on the testing portion of the dataset which was not used for model training and validation"
+        },
+        {
+            "type": "school_project",
+            "title":"Analyzing Data Distribution and Computing the Number of Distinct Elements in a Data Set Consisting of Over One Million Data Points - Uses Spark, Scala, Google Cloud Platform",
+            "description": "This project's goal was to utilize Spark and GCP in order to find out information about a data set.",
+            "path": "data_distribution.html",
+            "details": ""
+        },
+        {
+            "type": "school_project",
+            "title":"Treble” iOS App - Uses Google Firebase, Google Storage, Google Authentication, Google Place Autocomplete, Mapkit",
+            "description": "This project is an iOS App that allows users to create a post for an event and allows others to see events",
+            "path": "treble.html",
+            "details": ""
+        },
+        {
+            "type": "personal_project",
+            "title":"GDP Per Capita Predictor - Uses Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn",
+            "description": "This project consisted of cleaning and analyzing a dataset detailing the countries of the world and attempting to predict the GDP Per Capita of the countries based on other features in the dataset.",
+            "path": "predicting_gdp.html" 
+        }
+	]
+}
